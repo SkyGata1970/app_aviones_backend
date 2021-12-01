@@ -1,14 +1,13 @@
 import {
-  repository,
+  repository
 } from '@loopback/repository';
 import {
-  param,
   get,
-  getModelSchemaRef,
+  getModelSchemaRef, param
 } from '@loopback/rest';
 import {
   Solicitud,
-  Usuario,
+  Usuario
 } from '../models';
 import {SolicitudRepository} from '../repositories';
 
